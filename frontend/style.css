@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+video {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  background: black;
+}
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+#transcript {
+  text-align: left;
+  max-height: 200px;
+  overflow-y: scroll;
+  background: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+.transcript-segment.active {
+  background-color: #cce5ff;
+}
+#speechChart {
+  max-width: 700px;
+  margin: 30px auto;
+  display: block;
+}
+.hidden {
+  display: none;
+}
